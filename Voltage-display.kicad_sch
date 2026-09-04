@@ -3208,7 +3208,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DWV8_TEX"
+		(property "Footprint" "ul_AMC1311BQDWVQ1_footprints:DWV8_TEX"
 			(at 102.87 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -3633,7 +3633,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SMD_16_10.3X7.5X2.6_RCP"
+		(property "Footprint" "R05CT055_R_footprints:SMD_16_10.3X7.5X2.6_RCP"
 			(at 97.79 36.83 0)
 			(hide yes)
 			(show_name no)

@@ -1,7 +1,8 @@
 (fp_lib_table
 	(version 7)
-	(lib (name "footprints-AMC1311") (type "KiCad") (uri "${KIPRJMOD}/ul_AMC1311BQDWVQ1/KiCADv6/footprints.pretty") (options "") (descr ""))
-	(lib (name "footprints-RECOM") (type "KiCad") (uri "${KIPRJMOD}/R05CT05S_R/KiCADv6/footprints.pretty") (options "") (descr ""))
-	(lib (name "TC7107ACPL") (type "Legacy") (uri "${KIPRJMOD}/LIB_TC7107ACPL/TC7107ACPL/KiCad/TC7107ACPL.mod") (options "") (descr ""))
-	(lib (name "footprints") (type "KiCad") (uri "${KIPRJMOD}/TC7660SEPA/KiCADv6/footprints.pretty") (options "") (descr ""))
+	(lib (name "Voltage_Display_Footprints") (type "KiCad") (uri "${KIPRJMOD}/Voltage_Display_Footprints.pretty") (options "") (descr ""))
+	(lib (name "R05CT055_R_footprints") (type "KiCad") (uri "${KIPRJMOD}/R05CT05S_R/KiCADv6/R05CT055_R_footprints.pretty") (options "") (descr ""))
+	(lib (name "TC7660SEPA_footprints") (type "KiCad") (uri "${KIPRJMOD}/TC7660SEPA/KiCADv6/footprints.pretty") (options "") (descr ""))
+	(lib (name "ul_ADR510ARTZ-REEL7_footprints") (type "KiCad") (uri "${KIPRJMOD}/ul_ADR510ARTZ-REEL7/KiCADv6/footprints.pretty") (options "") (descr ""))
+	(lib (name "ul_AMC1311BQDWVQ1_footprints") (type "KiCad") (uri "${KIPRJMOD}/ul_AMC1311BQDWVQ1/KiCADv6/footprints.pretty") (options "") (descr ""))
 )
