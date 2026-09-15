@@ -3845,7 +3845,7 @@
 			(justify left)
 		)
 		(uuid "5d2da97b-2460-415f-8ec1-b852db3406f0")
-		(property "Netclass" ""
+		(property "Net Class" ""
 			(at 200.66 52.07 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3871,7 +3871,7 @@
 			(justify left)
 		)
 		(uuid "7bba4c82-4eb3-41ad-940b-32476fa9740e")
-		(property "Netclass" ""
+		(property "Net Class" ""
 			(at 200.66 54.61 0)
 			(show_name no)
 			(do_not_autoplace no)
