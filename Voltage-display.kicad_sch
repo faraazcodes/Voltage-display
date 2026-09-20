@@ -4316,7 +4316,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector:Banana_Jack_2Pin"
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PTSM-0,5-2-2,5-V-SMD_1x02-1MP_P2.50mm_Vertical"
 			(at 53.34 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -4398,7 +4398,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector:Banana_Jack_2Pin"
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PTSM-0,5-2-2,5-V-SMD_1x02-1MP_P2.50mm_Vertical"
 			(at 38.1 114.3 0)
 			(hide yes)
 			(show_name no)

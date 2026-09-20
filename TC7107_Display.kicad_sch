@@ -3628,18 +3628,6 @@
 		)
 		(uuid "aa28ca46-8e3c-457f-ab3c-61d129922755")
 	)
-	(label "VREF_1V"
-		(at 34.29 105.41 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify right bottom)
-		)
-		(uuid "b194442e-aacb-4af2-a3fe-6a3f1a8e0e29")
-	)
 	(label "OSC2"
 		(at 189.23 30.48 0)
 		(effects
