@@ -1,0 +1,29 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model PTVS5V0S1UR,115
+#/766731/2151833/2.50/2/2/Diode ESD (Uni-directional)
+DEF PTVS5V0S1UR,115 D 0 30 Y Y 1 F N
+F0 "D" 400 350 50 H V L CNN
+F1 "PTVS5V0S1UR,115" 400 250 50 H V L CNN
+F2 "SOD123W" 400 150 50 H I L CNN
+F3 "https://assets.nexperia.com/documents/data-sheet/PTVSXS1UR_SER.pdf" 400 50 50 H I L CNN
+F4 "Nexperia PTVS5V0S1UR,115, Uni-Directional TVS Diode, 400W, 2-Pin SOD-123W" 400 -50 50 H I L CNN "Description"
+F5 "" 400 -150 50 H I L CNN "Height"
+F6 "Nexperia" 400 -250 50 H I L CNN "Manufacturer_Name"
+F7 "PTVS5V0S1UR,115" 400 -350 50 H I L CNN "Manufacturer_Part_Number"
+F8 "771-PTVS5V0S1UR115" 400 -450 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Nexperia/PTVS5V0S1UR115?qs=LMSg3oBIm%2FjAfyZn26r35g%3D%3D" 400 -550 50 H I L CNN "Mouser Price/Stock"
+F10 "PTVS5V0S1UR,115" 400 -650 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/ptvs5v0s1ur115/nexperia?utm_currency=USD&region=europe" 400 -750 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X ~ 1 0 0 100 R 50 50 0 0 P
+X ~ 2 600 0 100 L 50 50 0 0 P
+P 4 0 1 6 200 0 400 100 400 -100 200 0 N
+P 2 0 1 6 200 100 200 -100 N
+P 2 0 1 6 100 0 200 0 N
+P 2 0 1 6 500 0 400 0 N
+P 2 0 1 6 200 -100 260 -100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

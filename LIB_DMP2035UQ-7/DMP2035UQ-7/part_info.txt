@@ -1,0 +1,9 @@
+Manufacturer=Diodes Incorporated
+PartNumber=DMP2035UQ-7
+PartCategory=MOSFET (P-Channel)
+PackageCategory=SOT23 (3-Pin)
+PinCount=3
+Version=2.1
+Released=2026-08-26 15:18:02
+Downloaded=2026-09-25 07:03:22
+3D=Y

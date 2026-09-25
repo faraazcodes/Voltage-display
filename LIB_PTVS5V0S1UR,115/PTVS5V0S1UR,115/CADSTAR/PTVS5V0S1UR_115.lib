@@ -1,0 +1,18 @@
+.PTVS5V0S1UR_115 :1 ;Nexperia PTVS5V0S1UR,115, Uni-Directional TVS Diode, 400W, 2-Pin SOD-123W
+SOD123W
+*STM D
+*NGS
+*PLB 1="K" 2="A"
+*MXP 2
+*DFN PTVS5V0S1UR_115
+~!Manufacturer_Name (Nexperia)
+~!Manufacturer_Part_Number (PTVS5V0S1UR,115)
+~!Mouser Part Number (771-PTVS5V0S1UR115)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Nexperia/PTVS5V0S1UR115?qs=LMSg3oBIm%2FjAfyZn26r35g%3D%3D)
+~!Arrow Part Number (PTVS5V0S1UR,115)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/ptvs5v0s1ur115/nexperia?utm_currency=USD&region=europe)
+~!Link Datasheet (https://assets.nexperia.com/documents/data-sheet/PTVSXS1UR_SER.pdf)
+~!Height (-)
+~!3D_Model (PTVS5V0S1UR,115)
+PTVS5V0S1UR_115
+1.1!U 2.1!U 

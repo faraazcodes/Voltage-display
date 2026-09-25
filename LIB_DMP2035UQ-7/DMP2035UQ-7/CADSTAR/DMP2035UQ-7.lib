@@ -1,0 +1,18 @@
+.DMP2035UQ-7 :1 ;MOSFETs MOSFET BVDSS: 8V-24V SOT23 T&R 3K
+SOT96P240X115-3N
+*STM Q
+*NGS
+*PLB 1="G" 2="S" 3="D"
+*MXP 3
+*DFN DMP2035UQ-7
+~!Manufacturer_Name (Diodes Incorporated)
+~!Manufacturer_Part_Number (DMP2035UQ-7)
+~!Mouser Part Number (621-DMP2035UQ-7)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/DMP2035UQ-7?qs=W%2FMpXkg%252BdQ5BI1lImHV7XA%3D%3D)
+~!Arrow Part Number (DMP2035UQ-7)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/dmp2035uq-7/diodes-incorporated.html?utm_currency=USD&region=europe)
+~!Link Datasheet (https://www.diodes.com/assets/Datasheets/DMP2035U.pdf)
+~!Height (1.15mm)
+~!3D_Model (DMP2035UQ-7)
+DMP2035UQ-7
+1.1!U 2.1!U 3.1!U 

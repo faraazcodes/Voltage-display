@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP DMP2035UQ-7
+D MOSFETs MOSFET BVDSS: 8V-24V SOT23 T&R 3K
+K
+F https://www.diodes.com/assets/Datasheets/DMP2035U.pdf
+$ENDCMP
+#
+#End Doc Library

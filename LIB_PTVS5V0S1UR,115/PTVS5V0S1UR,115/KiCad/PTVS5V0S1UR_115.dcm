@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP PTVS5V0S1UR,115
+D Nexperia PTVS5V0S1UR,115, Uni-Directional TVS Diode, 400W, 2-Pin SOD-123W
+K
+F https://assets.nexperia.com/documents/data-sheet/PTVSXS1UR_SER.pdf
+$ENDCMP
+#
+#End Doc Library

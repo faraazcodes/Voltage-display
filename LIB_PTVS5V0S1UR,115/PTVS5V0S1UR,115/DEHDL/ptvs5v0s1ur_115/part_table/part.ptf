@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'PTVS5V0S1UR_115'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET";
+{========================================================================================}
+ "Nexperia", "PTVS5V0S1UR,115" (!) = "", "SOD123W", "Other", "771-PTVS5V0S1UR115", "https://www.mouser.co.uk/ProductDetail/Nexperia/PTVS5V0S1UR115?qs=LMSg3oBIm%2FjAfyZn26r35g%3D%3D", "PTVS5V0S1UR,115", "https://www.arrow.com/en/products/ptvs5v0s1ur115/nexperia?utm_currency=USD&region=europe", "Nexperia PTVS5V0S1UR,115, Uni-Directional TVS Diode, 400W, 2-Pin SOD-123W", "https://assets.nexperia.com/documents/data-sheet/PTVSXS1UR_SER.pdf"
+END_PART
+
+END.

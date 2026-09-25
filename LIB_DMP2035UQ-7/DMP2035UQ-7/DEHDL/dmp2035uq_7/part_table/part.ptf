@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'DMP2035UQ_7'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Diodes Incorporated", "DMP2035UQ-7" (!) = "", "SOT96P240X115-3N", "SOT23 (3-Pin)", "621-DMP2035UQ-7", "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/DMP2035UQ-7?qs=W%2FMpXkg%252BdQ5BI1lImHV7XA%3D%3D", "DMP2035UQ-7", "https://www.arrow.com/en/products/dmp2035uq-7/diodes-incorporated.html?utm_currency=USD&region=europe", "MOSFETs MOSFET BVDSS: 8V-24V SOT23 T&R 3K", "https://www.diodes.com/assets/Datasheets/DMP2035U.pdf", "1.15 mm"
+END_PART
+
+END.

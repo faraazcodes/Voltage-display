@@ -1,0 +1,9 @@
+Manufacturer=Nexperia
+PartNumber=PTVS5V0S1UR,115
+PartCategory=Diode ESD (Uni-directional)
+PackageCategory=Other
+PinCount=2
+Version=9.2
+Released=2020-06-03 06:59:48
+Downloaded=2026-09-25 07:21:14
+3D=Y
