@@ -278,6 +278,18 @@
       [
         "ground_pin_not_ground|1028700|1409700|01902aae-23c7-4e3a-8f20-0e3299c7a302|00000000-0000-0000-0000-000000000000|/aef1bf95-17d0-423a-9dc9-789356babb58|/aef1bf95-17d0-423a-9dc9-789356babb58|",
         "We want electrical isolation from HV and LV, connecting it to ground would defeat that purpose"
+      ],
+      [
+        "ground_pin_not_ground|1066800|1117600|cb37a313-e09a-4df6-bac4-2dc4ec78b2c0|00000000-0000-0000-0000-000000000000|/aef1bf95-17d0-423a-9dc9-789356babb58|/aef1bf95-17d0-423a-9dc9-789356babb58|",
+        "Intentional isolated high-side ground; HV− must remain galvanically isolated from LV GND."
+      ],
+      [
+        "ground_pin_not_ground|1066800|1371600|76cbabc8-341b-4a3c-8cf6-647b977e7742|00000000-0000-0000-0000-000000000000|/aef1bf95-17d0-423a-9dc9-789356babb58|/aef1bf95-17d0-423a-9dc9-789356babb58|",
+        "Intentional isolated high-side ground; HV− must remain galvanically isolated from LV GND."
+      ],
+      [
+        "ground_pin_not_ground|1066800|1422400|bc86db81-0328-497e-9ed5-c8be09874805|00000000-0000-0000-0000-000000000000|/aef1bf95-17d0-423a-9dc9-789356babb58|/aef1bf95-17d0-423a-9dc9-789356babb58|",
+        "Intentional isolated high-side ground; HV− must remain galvanically isolated from LV GND."
       ]
     ],
     "meta": {
@@ -740,7 +752,7 @@
         "uuid": "aef1bf95-17d0-423a-9dc9-789356babb58"
       }
     ],
-    "used_designators": "U5,#PWR20,#PWR26-32,C18-24,SW2",
+    "used_designators": "U1-2,U5,#PWR20,#PWR26-32,C18-24,SW1-2,#FLG3-5",
     "variants": []
   },
   "sheets": [
