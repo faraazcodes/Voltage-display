@@ -3884,8 +3884,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "02217a8f-247d-4f49-a260-c2898cf61ed5")
-		(property "Reference" "C12"
-			(at 107.95 22.86 90)
+		(property "Reference" "C11"
+			(at 107.95 21.59 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3895,7 +3895,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 107.95 25.4 90)
+			(at 107.95 24.13 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3946,7 +3946,7 @@
 		(instances
 			(project "Voltage-display"
 				(path "/aef1bf95-17d0-423a-9dc9-789356babb58/ee1a10b0-86e7-43a8-a51e-35d9aa7c3f38"
-					(reference "C12")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -3964,7 +3964,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "19aca8e3-e21f-4df3-afcc-f1c9bc2c24d2")
-		(property "Reference" "C13"
+		(property "Reference" "C12"
 			(at 140.97 20.32 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4026,7 +4026,7 @@
 		(instances
 			(project "Voltage-display"
 				(path "/aef1bf95-17d0-423a-9dc9-789356babb58/ee1a10b0-86e7-43a8-a51e-35d9aa7c3f38"
-					(reference "C13")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -4043,7 +4043,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "26c48963-4778-4700-8fdd-7f9d3b3ad19f")
-		(property "Reference" "C10"
+		(property "Reference" "C9"
 			(at 17.78 36.8301 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4107,7 +4107,7 @@
 		(instances
 			(project "Voltage-display"
 				(path "/aef1bf95-17d0-423a-9dc9-789356babb58/ee1a10b0-86e7-43a8-a51e-35d9aa7c3f38"
-					(reference "C10")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -4125,7 +4125,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "37edb463-4d04-448f-bea9-35ba8ed0c9f2")
-		(property "Reference" "C11"
+		(property "Reference" "C10"
 			(at 113.03 41.9099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4189,7 +4189,7 @@
 		(instances
 			(project "Voltage-display"
 				(path "/aef1bf95-17d0-423a-9dc9-789356babb58/ee1a10b0-86e7-43a8-a51e-35d9aa7c3f38"
-					(reference "C11")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -4889,7 +4889,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6585e404-0225-4481-a01b-8a188bc7eb7f")
-		(property "Reference" "C17"
+		(property "Reference" "C16"
 			(at 193.04 99.06 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4951,7 +4951,7 @@
 		(instances
 			(project "Voltage-display"
 				(path "/aef1bf95-17d0-423a-9dc9-789356babb58/ee1a10b0-86e7-43a8-a51e-35d9aa7c3f38"
-					(reference "C17")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -4969,7 +4969,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6d145d52-1544-4f16-a014-29fb555fe2d3")
-		(property "Reference" "C16"
+		(property "Reference" "C15"
 			(at 149.86 111.7599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5033,7 +5033,7 @@
 		(instances
 			(project "Voltage-display"
 				(path "/aef1bf95-17d0-423a-9dc9-789356babb58/ee1a10b0-86e7-43a8-a51e-35d9aa7c3f38"
-					(reference "C16")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -5313,7 +5313,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7f9e9cf9-1c05-47ee-99d0-5787702863c6")
-		(property "Reference" "C14"
+		(property "Reference" "C13"
 			(at 210.82 41.9099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5377,7 +5377,7 @@
 		(instances
 			(project "Voltage-display"
 				(path "/aef1bf95-17d0-423a-9dc9-789356babb58/ee1a10b0-86e7-43a8-a51e-35d9aa7c3f38"
-					(reference "C14")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -5950,7 +5950,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cc352f98-5d89-4b6c-ba59-4a68fe8867df")
-		(property "Reference" "C15"
+		(property "Reference" "C14"
 			(at 125.73 111.7599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6014,7 +6014,7 @@
 		(instances
 			(project "Voltage-display"
 				(path "/aef1bf95-17d0-423a-9dc9-789356babb58/ee1a10b0-86e7-43a8-a51e-35d9aa7c3f38"
-					(reference "C15")
+					(reference "C14")
 					(unit 1)
 				)
 			)

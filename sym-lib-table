@@ -5,4 +5,6 @@
 	(lib (name "TC7660SEPA") (type "KiCad") (uri "${KIPRJMOD}/TC7660SEPA/KiCADv6/2026-09-04_00-28-59.kicad_sym") (options "") (descr ""))
 	(lib (name "ADR510ARTZ-REEL7") (type "KiCad") (uri "${KIPRJMOD}/ul_ADR510ARTZ-REEL7/KiCADv6/2026-09-04_02-10-52.kicad_sym") (options "") (descr ""))
 	(lib (name "AMC1311") (type "KiCad") (uri "${KIPRJMOD}/ul_AMC1311BQDWVQ1/KiCADv6/2026-09-02_23-50-31.kicad_sym") (options "") (descr ""))
+	(lib (name "AMC3311-Q1") (type "KiCad") (uri "${KIPRJMOD}/ul_PAMC3311QDWERQ1/KiCADv6/2026-10-03_01-25-58.kicad_sym") (options "") (descr ""))
+	(lib (name "ul_BD01") (type "KiCad") (uri "${KIPRJMOD}/ul_BD01/KiCADv6/2026-10-03_02-30-37.kicad_sym") (options "") (descr ""))
 )
