@@ -2291,6 +2291,16 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 127) (xy 190.5 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "075e4e95-c5ba-4000-b831-ec039deea784")
+	)
+	(wire
+		(pts
 			(xy 151.13 55.88) (xy 158.75 55.88)
 		)
 		(stroke
@@ -2929,16 +2939,6 @@
 		)
 		(uuid "2dee0b7a-b828-4822-a742-87597ea626d8")
 	)
-	(label "+5V"
-		(at 97.79 34.29 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "304903a3-4073-4104-978f-5367f7399f54")
-	)
 	(label "HV-"
 		(at 106.68 137.16 180)
 		(effects
@@ -2978,16 +2978,6 @@
 			(justify right bottom)
 		)
 		(uuid "54b5ae7f-7f77-4610-bd79-686620958493")
-	)
-	(label "+5V"
-		(at 63.5 127 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "566f9b65-fe3a-47b7-bb40-408b3c4a4c35")
 	)
 	(label "HV_SENSE"
 		(at 106.68 132.08 180)
@@ -4174,6 +4164,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 63.5 127 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6795eb4c-191f-4518-958f-1bd0d94dad76")
+		(property "Reference" "#PWR01"
+			(at 59.69 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 67.31 126.9999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.5 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 63.5 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f780d586-fd6e-4668-a823-d026bb30d056")
+		)
+		(instances
+			(project "Voltage-display"
+				(path "/aef1bf95-17d0-423a-9dc9-789356babb58"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 88.9 44.45 0)
 		(unit 1)
@@ -4696,6 +4765,84 @@
 			(project "Voltage-display"
 				(path "/aef1bf95-17d0-423a-9dc9-789356babb58"
 					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 97.79 34.29 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "816d76b0-9e31-483c-8530-616ffe872f9c")
+		(property "Reference" "#PWR06"
+			(at 97.79 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 97.79 29.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 97.79 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 97.79 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 97.79 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0ac9ecd7-e5b1-4a13-b5bf-f077d1553b6e")
+		)
+		(instances
+			(project "Voltage-display"
+				(path "/aef1bf95-17d0-423a-9dc9-789356babb58"
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -5881,6 +6028,16 @@
 		(pin "AMC_OUTP" input
 			(at 190.5 132.08 180)
 			(uuid "a8ca2926-2a94-43b7-8ecb-de30bc213b00")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "+5V" input
+			(at 190.5 127 180)
+			(uuid "edad5d80-efdb-4ee9-aa33-830bca8b24d6")
 			(effects
 				(font
 					(size 1.27 1.27)

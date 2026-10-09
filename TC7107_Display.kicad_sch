@@ -2765,6 +2765,12 @@
 		(color 0 0 0 0)
 		(uuid "cc4145ec-fafe-4384-8613-381aad56c2ba")
 	)
+	(junction
+		(at 146.05 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d769d3cc-09d3-463c-8efb-12112fb07913")
+	)
 	(no_connect
 		(at 132.08 176.53)
 		(uuid "06ded54f-efbf-4eeb-8672-8326f0c52780")
@@ -2927,6 +2933,16 @@
 	)
 	(wire
 		(pts
+			(xy 146.05 24.13) (xy 146.05 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22a22088-bd5e-46d5-a55a-53ae3a170c4e")
+	)
+	(wire
+		(pts
 			(xy 200.66 106.68) (xy 200.66 115.57)
 		)
 		(stroke
@@ -3017,6 +3033,16 @@
 	)
 	(wire
 		(pts
+			(xy 146.05 27.94) (xy 148.59 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68ef62f9-3626-4d3c-9653-d12cc13e0ce8")
+	)
+	(wire
+		(pts
 			(xy 121.92 105.41) (xy 133.35 105.41)
 		)
 		(stroke
@@ -3097,7 +3123,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 27.94) (xy 148.59 27.94)
+			(xy 144.78 27.94) (xy 146.05 27.94)
 		)
 		(stroke
 			(width 0)
@@ -3954,7 +3980,7 @@
 			(justify left)
 		)
 		(uuid "5d2da97b-2460-415f-8ec1-b852db3406f0")
-		(property "Netclass" ""
+		(property "Net Class" ""
 			(at 200.66 52.07 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3980,7 +4006,7 @@
 			(justify left)
 		)
 		(uuid "7bba4c82-4eb3-41ad-940b-32476fa9740e")
-		(property "Netclass" ""
+		(property "Net Class" ""
 			(at 200.66 54.61 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3992,6 +4018,17 @@
 				(justify left)
 			)
 		)
+	)
+	(hierarchical_label "+5V"
+		(shape input)
+		(at 146.05 24.13 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e5f8c21f-813d-4999-bf6c-47eea5638ef8")
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -4068,6 +4105,84 @@
 			(project "Voltage-display"
 				(path "/aef1bf95-17d0-423a-9dc9-789356babb58/ee1a10b0-86e7-43a8-a51e-35d9aa7c3f38"
 					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 148.59 24.13 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "03d0ea71-4805-45ed-a813-61526c754611")
+		(property "Reference" "#PWR02"
+			(at 148.59 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 148.59 19.05 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 148.59 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.59 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 148.59 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "48ddaa05-3800-4d4c-9081-349b0124004f")
+		)
+		(instances
+			(project "Voltage-display"
+				(path "/aef1bf95-17d0-423a-9dc9-789356babb58/ee1a10b0-86e7-43a8-a51e-35d9aa7c3f38"
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -5976,84 +6091,6 @@
 			(project "Voltage-display"
 				(path "/aef1bf95-17d0-423a-9dc9-789356babb58/ee1a10b0-86e7-43a8-a51e-35d9aa7c3f38"
 					(reference "#PWR015")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 148.59 24.13 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c72a0e81-a2dd-49a2-b3ff-18252f0053b8")
-		(property "Reference" "#PWR013"
-			(at 148.59 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 148.59 19.05 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 148.59 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 148.59 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 148.59 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c1ddce11-56a5-4ecf-a1d7-01d72559ef3d")
-		)
-		(instances
-			(project "Voltage-display"
-				(path "/aef1bf95-17d0-423a-9dc9-789356babb58/ee1a10b0-86e7-43a8-a51e-35d9aa7c3f38"
-					(reference "#PWR013")
 					(unit 1)
 				)
 			)
